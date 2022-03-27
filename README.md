@@ -67,7 +67,3 @@ Der Bundesgerichtshof hat entschieden, dass Art. 237 StGB sowohl in den von Art.
 **Output des Models:** Fllen vorstzlicher Verkehrsgefhrdung die Anwendung von Art 237 Ziff.
 
 **Beurteilung des Outputs:** TODO
-
-```
-
-```

@@ -17,6 +17,7 @@ public class Gpt3Example
     public async Task Example()
     {
         var configuration = new ConfigurationManager();
+        configuration.AddUserSecrets("91366f21-ccd8-4bb7-a16d-44a2d4c51cac");
         var openApiKey = configuration[openApiKeyKey];
         Console.WriteLine(openApiKey);
 

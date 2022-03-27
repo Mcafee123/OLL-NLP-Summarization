@@ -12,8 +12,9 @@ Dafür werden verschiedene NLP-Modelle getestet und die Möglichkeiten abgeschä
 1. Es werden 2-3 BGE ausgewählt aus dem Strassenverkehrsrecht (Wahl fiel auf SVG, da Urteile übersichtlich kurz und kurze Regesten).
 2. Mit diesen BGE werden verschiedene NLP-Modelle getestet.
 
-| Getestete Modelle | Score |
+### BART Large CNN (English)
 
-| Getestete Modelle | Ziel   | Resultat des Models |
-| ----------------- | ------ | ------------------- |
-| Inhalt            | Inhalt | Inhalt              |
+**Model Parameter:** English.
+**Ziel (Regeste):** Auf die vorsätzliche konkrete Gefährdung des Strassenverkehrs, herbeigeführt durch Verletzung von Verkehrsregeln, ist unter Ausschluss von Art. 90 SVG Art. 237 Ziff. 1 StGB anzuwenden.
+**Output des Models:** Wie der Kassationshof entschieden hat, ist Art. 237 StGB nicht mehr anwendbar (BGE 90 IV 156). Offen gelassen wurde dagegen bisher, ob in Fällen vorsätzlicher Verkehrsgefährdung auch die Anwendung von Art. 237 Ziff. 1 StGB ausgeschlossen sei.
+**Beurteilung des Outputs:** TODO

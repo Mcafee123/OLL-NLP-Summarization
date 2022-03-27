@@ -29,7 +29,8 @@ Dafür werden verschiedene NLP-Modelle getestet und die Möglichkeiten abgeschä
 
 **Model Parameter**
 
-'curl https://api.openai.com/v1/engines/text-davinci-002/completions \
+```
+curl https://api.openai.com/v1/engines/text-davinci-002/completions \
  -H "Content-Type: application/json" \
  -H "Authorization: Bearer $OPENAI_API_KEY" \
  -d '{
@@ -42,6 +43,7 @@ Dafür werden verschiedene NLP-Modelle getestet und die Möglichkeiten abgeschä
 }'
 
 Prompt: "Was sind die wesentlichen rechtlichen Erwägungen?"
+```
 
 **BGE**
 91_IV_216
@@ -65,3 +67,7 @@ Der Bundesgerichtshof hat entschieden, dass Art. 237 StGB sowohl in den von Art.
 **Output des Models:** Fllen vorstzlicher Verkehrsgefhrdung die Anwendung von Art 237 Ziff.
 
 **Beurteilung des Outputs:** TODO
+
+```
+
+```

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6iJHUqErvK5+6aALPtALpzDvBQHbPXBT2lf7DcmUWMHj9bFkwJXq1kB59WTQW9ltRHAdJCX3NpQVQgMTjIZBmg==",
+  "dgSpecHash": "R/N89F2tX5tJOJHzpk5yq6BL7c2dRnyYBzuU9uYZNzvmYEb7XIMI2+YfpgToRZ0SaJjBJ5muzUnjcOTLhDtyuA==",
   "success": true,
-  "projectFilePath": "/Users/martin/Documents/Source/OpenLegalLab/GPT3/Summarization.Cons/Summarization.Cons.csproj",
+  "projectFilePath": "/Users/martin/Documents/Source/OpenLegalLab/OLL-NLP-Summarization/GPT3/Summarization.Cons/Summarization.Cons.csproj",
   "expectedPackageFiles": [
     "/Users/martin/.nuget/packages/microsoft.bcl.asyncinterfaces/1.1.1/microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "/Users/martin/.nuget/packages/microsoft.extensions.configuration/6.0.1/microsoft.extensions.configuration.6.0.1.nupkg.sha512",

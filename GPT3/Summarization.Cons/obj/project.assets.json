@@ -629,11 +629,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/martin/Documents/Source/OpenLegalLab/GPT3/Summarization.Cons/Summarization.Cons.csproj",
+      "projectUniqueName": "/Users/martin/Documents/Source/OpenLegalLab/OLL-NLP-Summarization/GPT3/Summarization.Cons/Summarization.Cons.csproj",
       "projectName": "Summarization.Cons",
-      "projectPath": "/Users/martin/Documents/Source/OpenLegalLab/GPT3/Summarization.Cons/Summarization.Cons.csproj",
+      "projectPath": "/Users/martin/Documents/Source/OpenLegalLab/OLL-NLP-Summarization/GPT3/Summarization.Cons/Summarization.Cons.csproj",
       "packagesPath": "/Users/martin/.nuget/packages/",
-      "outputPath": "/Users/martin/Documents/Source/OpenLegalLab/GPT3/Summarization.Cons/obj/",
+      "outputPath": "/Users/martin/Documents/Source/OpenLegalLab/OLL-NLP-Summarization/GPT3/Summarization.Cons/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/martin/.nuget/NuGet/NuGet.Config"

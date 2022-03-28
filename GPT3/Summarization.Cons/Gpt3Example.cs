@@ -1,3 +1,4 @@
+using System.Net;
 using System.Text;
 using Microsoft.Extensions.Configuration;
 using OpenAI_API;
@@ -21,6 +22,9 @@ public class Gpt3Example
         configuration.AddUserSecrets("91366f21-ccd8-4bb7-a16d-44a2d4c51cac");
         var openApiKey = configuration[openApiKeyKey];
 
+        var client = new HttpClient();
+        var response = await client.GetAsync("https://www.bger.ch/ext/eurospider/live/de/php/aza/http/index_aza.php?date=20220325&lang=de&mode=news");
+        var html = await response.Content.ReadAsStringAsync();
         var models = new List<BgeModel>
         {
             new(bgeFile1),

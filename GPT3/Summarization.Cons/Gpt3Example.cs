@@ -2,6 +2,7 @@ using System.Text;
 using Microsoft.Extensions.Configuration;
 using OpenAI_API;
 using Spectre.Console;
+using Summarization.Cons.Extensions;
 
 namespace Summarization.Cons;
 
@@ -19,7 +20,6 @@ public class Gpt3Example
         var configuration = new ConfigurationManager();
         configuration.AddUserSecrets("91366f21-ccd8-4bb7-a16d-44a2d4c51cac");
         var openApiKey = configuration[openApiKeyKey];
-        Console.WriteLine(openApiKey);
 
         var models = new List<BgeModel>
         {
@@ -27,12 +27,12 @@ public class Gpt3Example
             new(bgeFile2),
             new(bgeFile3)
         };
-
+        var maxLength = 300;
         var sb = new StringBuilder();
-        sb.Append($"Entscheid: {models[0].Prompt}\n");
-        sb.Append($"Regeste: {models[0].Regeste}\n");
-        // sb.Append($"Entscheid2: {models[1].Prompt}\n");
-        // sb.Append($"Regeste2: {models[1].Regeste}\n");
+        sb.Append($"Entscheid: {models[0].Prompt.MaxLength(maxLength)}\n");
+        sb.Append($"Regeste: {models[0].RegesteDe.MaxLength(maxLength)}\n");
+        sb.Append($"Entscheid2: {models[1].Prompt.MaxLength(maxLength)}\n");
+        sb.Append($"Regeste2: {models[1].RegesteDe.MaxLength(maxLength)}\n");
         sb.Append($"Entscheid: {models[2].Prompt}\n");
         sb.Append("Regeste:");
         

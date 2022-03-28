@@ -1,0 +1,28 @@
+{
+  "name": "bger_twitterbot",
+  "version": "1.0.0",
+  "description": "Twitterbot to post federal court decisions which are marked to be published.",
+  "main": "index.js",
+  "scripts": {
+    "start": "func start",
+    "test": "echo \"No tests yet...\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/colin-r-carter/BGer_Twitterbot.git"
+  },
+  "keywords": [
+    "Twitterbot"
+  ],
+  "author": "Colin Carter",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/colin-r-carter/BGer_Twitterbot/issues"
+  },
+  "homepage": "https://github.com/colin-r-carter/BGer_Twitterbot#readme",
+  "dependencies": {
+    "axios": "^0.26.1",
+    "cheerio": "^1.0.0-rc.10",
+    "dotenv": "^16.0.0"
+  }
+}

@@ -11,8 +11,7 @@ public class LinkModel
 
     public string Lang { get; set; }
 
-    public string Url =>
-        $"https://www.bger.ch/ext/eurospider/live/it/php/aza/http/index.php?highlight_docid=aza%3A%2F%2Faza://{DecisionDateDay}-{DecisionDateMonth}-{DecisionDateYear}-{Bge.Replace("/", "-")}&lang=it&zoom=&type=show_document";
+    public string Url { get; set; }
     
     public override string ToString()
     {
@@ -23,7 +22,8 @@ public class LinkModel
         // } else {
         //     output = "Das Bundesgericht hat am "+day +"." +month+"."+year+" den Entscheid " + BGer + " vom "+ date + " zur Publikation vorgesehen. Er behandelt: "+text+" -" +next +" Link: " + url; 
         // }
-        var output = $"Das Bundesgericht hat am {RunDate} den Entscheid {Bge} vom {DecisionDateDay}.{DecisionDateMonth}.{DecisionDateYear} zur Publikation vorgesehen. Er behandelt: {Text} Link: {Url}";
+        var output =
+            $"Das Bundesgericht hat am {RunDate} den Entscheid {Bge} vom {DecisionDateDay}.{DecisionDateMonth}.{DecisionDateYear} zur Publikation vorgesehen. Er behandelt: {Text} Link: {Url}";
         return output;
     }
 }
